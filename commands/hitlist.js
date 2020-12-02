@@ -17,10 +17,10 @@ module.exports = {
                 }
             }
         }else{
-            console.log(role);
-            console.log(role.members);
-            console.log(role.members.array());
-            console.log(role.members.array()[0]);
+            // console.log(role);
+            // console.log(role.members);
+            // console.log(role.members.array());
+            // console.log(role.members.array()[0]);
             role.members.array().map(m=>console.log(m));
         }
 
